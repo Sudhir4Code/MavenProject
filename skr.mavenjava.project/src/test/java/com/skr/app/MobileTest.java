@@ -16,6 +16,6 @@ public class MobileTest {
 	
 	@Test (groups = {"smoke","mobile"})
 	public void WindowsTest(){
-		System.out.println("This Test belongs to smoke and functional test group. Windows mobile test execution done");
+		System.out.println("This Test belongs to smoke and mobile test group. Windows mobile test execution done");
 	}
 }
