@@ -4,24 +4,24 @@ import org.testng.annotations.Test;
 
 public class SmokeTest {
 	
-	@Test
+	@Test (groups = {"smoke","functional"})
 	public void Test1(){
-		System.out.println("Smoke test 1 is passed");
+		System.out.println("This Test belongs to smoke and functional test group. IOS test execution done");
 	}
 	
-	@Test
+	@Test (groups = {"smoke","functional"})
 	public void Test2(){
-		System.out.println("Smoke test 2 is passed");
+		System.out.println("This Test belongs to smoke and functional test group. IOS test execution done");
 	}
 	
-	@Test
+	@Test (groups = {"smoke","functional"})
 	public void Test3(){
-		System.out.println("Smoke test 3 is passed");
+		System.out.println("This Test belongs to smoke and functional test group. IOS test execution done");
 	}
 	
-	@Test
+	@Test (groups = {"smoke","functional"})
 	public void Test4(){
-		System.out.println("Smoke test 4 is passed");
+		System.out.println("This Test belongs to smoke and functional test group. IOS test execution done");
 	}
 
 }
